@@ -1,7 +1,7 @@
 
 # clouchjs
 
-  replace click with touch
+  replace the word `click` with `touch` on mobile devices so that, instead of reading `click here` it will read `touch here`
 
 ## Installation
 
@@ -9,8 +9,11 @@
 
     $ component install bulkan/clouchjs
 
-## API
+## Usage
 
+At the moment see the `test.html` file. 
+
+Still work in progress
 
 
 ## License

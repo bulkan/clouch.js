@@ -5,7 +5,11 @@ var dom = require('dom'),
 
 domready(function() {
   var parser = new UAParser();
-  console.log(parser.getResult());
+  var ua = parser.getResult();
+
+
+  // only do this on mobile
+  if (!ua.mobile) return;
 
   var all = document.body.getElementsByTagName("*");
 
@@ -15,7 +19,5 @@ domready(function() {
     if(html.match('click')){
       console.log(dom(all[i]).html());
     }
-
   }
-
 });

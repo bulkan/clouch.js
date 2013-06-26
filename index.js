@@ -7,17 +7,16 @@ domready(function() {
   var parser = new UAParser();
   var ua = parser.getResult();
 
-
   // only do this on mobile
-  if (!ua.mobile) return;
+  if (ua.device.type != "mobile") return;
 
   var all = document.body.getElementsByTagName("*");
 
   for (var i=0, max=all.length; i < max; i++) {
-    var html = dom(all[i]).html();
+    var elm = dom(all[i])
+      , html = elm.html();
 
-    if(html.match('click')){
-      console.log(dom(all[i]).html());
-    }
+    // if we can find it then replace with touch
+    elm.html(html.replace(/click/g, 'touch'));
   }
 });

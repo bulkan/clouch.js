@@ -3,18 +3,21 @@ html, body{
 	padding: 0;
     max-width: 100%;
     overflow-x: hidden;
+    background-color: #F2F2F2;
 }
 
 .heading{
     background-color: #333333;
-    margin:0 !important;
-    padding:0 !important;
     border:1px solid;
     border-bottom-left-radius:15px;
     border-bottom-right-radius:15px;
     -moz-border-bottom-left-radius: 15px;
     -moz-border-bottom-right-radius: 15px;
     position: relative;
+    -moz-box-shadow: 2px 2px 5px #595959;
+    -webkit-box-shadow: 2px 2px 5px #595959;
+    box-shadow: 2px 2px 5px #595959;
+    margin-bottom: 20px;
 }
 
 .title{
@@ -63,6 +66,7 @@ html, body{
 }
 
 .download a:hover{
+    color: #FFFFFF;
 }
 
 #download-text{
@@ -82,4 +86,28 @@ i.ss-icon{
     line-height:35.5px;
     padding:20px;
 }
-    
+
+.information-box{
+    background-color: #595959;
+    border-radius:15px;
+    -moz-border-radius: 15px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#information-heading{
+    font-family:'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    font-style:italic;
+    color: #69CBC5;
+    padding-top: 5px;
+}
+
+#information-text{
+    font-family:'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    color: #FFFFFF;
+    padding-top: 5px;
+}

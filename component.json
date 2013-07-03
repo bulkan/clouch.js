@@ -1,0 +1,23 @@
+{
+  "name": "clouchjs",
+  "repo": "bulkan/clouchjs",
+  "description": "replace click with touch",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/dom": "*",
+    "ded/domready": "*",
+    "faisalman/ua-parser-js": "*"
+  },
+  "development": {
+      "component/assert": "*",
+      "component/enumerable": "*",
+      "visionmedia/mocha-matrix": "*",
+      "paulmillr/console-polyfill": "*"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}

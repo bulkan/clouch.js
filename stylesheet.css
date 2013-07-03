@@ -1,9 +1,22 @@
 html, body{
-    margin:0 !important;
-	padding: 0;
-    max-width: 100%;
+    float: center;
+	margin:0 !important;
+	padding: 0 !important;
+    text-align:left !important;
+    width: 100%;
     overflow-x: hidden;
-    background-color: #F2F2F2;
+    
+}
+
+html{
+	font-size: 12px; 
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 80%;	
+    background-image:url('assets/img/003-subtle-light-pattern.jpg');
+    background-repeat:repeat;
 }
 
 .heading{
@@ -14,46 +27,47 @@ html, body{
     -moz-border-bottom-left-radius: 15px;
     -moz-border-bottom-right-radius: 15px;
     position: relative;
-    -moz-box-shadow: 2px 2px 5px #595959;
-    -webkit-box-shadow: 2px 2px 5px #595959;
-    box-shadow: 2px 2px 5px #595959;
-    margin-bottom: 20px;
+    -moz-box-shadow: 2px 2px 5px black;
+    -webkit-box-shadow: 2px 2px 5px black;
+    box-shadow: 2px 2px 5px black;
+    margin-bottom: 2em;
+    display:block;
 }
 
 .title{
-    height: 100px;
+    height: 11em;
 }
 
 .clouch{
     display:inline-block; 
     position:absolute;
     bottom:0;
-    padding-bottom:25px;
-    padding-left: 40px;
+    padding-bottom:2em;
+    padding-left: 5em;
 }
 
 #bold-heading{
     font-family:'Lato', sans-serif;
-    font-size: 60px;
+    font-size: 6.5em;
     font-weight: 700;
     color: #69CBC5;
 }
 
 #sub-heading{
     font-family:'Lato', sans-serif;
-    font-size: 25px;
-    font-weight: 100;
+    font-size: .5em;
+    font-weight: 200;
     font-style:italic;
     color: #FFFFFF;
 }
 
-.download{
+.download a{
     background-color: #69CBC5;
     display:inline-block;
     position:absolute;
     bottom:0;
-    margin-bottom:23px;
-    height:14px;
+    margin-bottom:.55em;
+    height:1.2em;
     border-top-left-radius:8px;
     border-bottom-left-radius:8px;
     -moz-border-bottom-left-radius: 8px;
@@ -62,7 +76,9 @@ html, body{
 
 .download a{
 	text-decoration: none;
-    font-size:25px;
+    font-size:2.5em;
+    width:12em;
+    right: 0;
 }
 
 .download a:hover{
@@ -72,42 +88,81 @@ html, body{
 #download-text{
 	color: #333333;
     font-family:'Lato', sans-serif;
-	font-size: 20px;
+	font-size: .7em;
     font-weight: 200;
     font-style:italic;
-    line-height:29px;
+    line-height:1.75em;
     position:absolute;
-    padding-left: 17px;
+    padding-left: .7em;
 }
 
 i.ss-icon{
 	color: #333333;
-	font-size:25px;
-    line-height:35.5px;
-    padding:20px;
+	font-size: 1em;
+    line-height:1.45em;
+    padding-left:20px;
+}
+
+.information{
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .information-box{
-    background-color: #595959;
+    background-color: white;
+    opacity:.8;
     border-radius:15px;
     -moz-border-radius: 15px;
-    padding: 20px;
-    margin-top: 10px;
+    padding: 2.5em;
+    margin-top: 1.5em;
 }
 
 #information-heading{
     font-family:'Lato', sans-serif;
-    font-size: 25px;
+    font-size: 2.5em;
     font-weight: 300;
     font-style:italic;
     color: #69CBC5;
-    padding-top: 5px;
+    padding-top: .4em;
 }
 
 #information-text{
     font-family:'Lato', sans-serif;
-    font-size: 14px;
-    font-weight: 100;
-    color: #FFFFFF;
-    padding-top: 5px;
+    font-size: 1.5em;
+    font-weight: 200;
+    color: #333333;
+    padding-top: .4em;
 }
+
+/* Large desktop */
+@media (min-width: 1200px) { 	
+    .information{
+        margin-left: 1em !important;
+        margin-right: 1em !important;
+	}
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {     
+    .information{
+        margin-left: 1em !important;
+        margin-right: 1em !important;
+	} 
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {    
+    .information{
+        margin-left: 1em !important;
+        margin-right: 1em !important;
+	}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {    
+    .information{
+        margin-left: 1em !important;
+        margin-right: 1em !important;
+	}
+}
+

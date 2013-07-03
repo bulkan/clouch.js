@@ -160,6 +160,8 @@ i.ss-icon{
     .information{
         margin-left: 1em !important;
         margin-right: 1em !important;
+            height: 70em !important;
+
 	}
 }
  
@@ -168,6 +170,8 @@ i.ss-icon{
     .information{
         margin-left: 1em !important;
         margin-right: 1em !important;
+        height: 100em !important;
+
 	} 
 }
  

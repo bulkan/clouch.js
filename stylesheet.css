@@ -4,6 +4,7 @@ html, body{
 	padding: 0 !important;
     text-align:left !important;
     overflow-x: hidden;
+    height: 100%;
     
 }
 
@@ -14,8 +15,6 @@ html{
 body{
 	font-family: 'Lato', sans-serif;
 	font-size: 80%;	
-    background-image:url('assets/img/003-subtle-light-pattern.jpg');
-    background-repeat:repeat;
 }
 
 .heading{
@@ -29,7 +28,6 @@ body{
     -moz-box-shadow: 2px 2px 5px black;
     -webkit-box-shadow: 2px 2px 5px black;
     box-shadow: 2px 2px 5px black;
-    margin-bottom: 2em;
     display:block;
 }
 
@@ -101,9 +99,13 @@ i.ss-icon{
 }
 
 .information{
-    margin-left: 0;
-    margin-right: 0;
-    padding-bottom: 10px;
+    padding-bottom: 45px;
+    padding-top: 10px;
+    background-image:url('assets/img/003-subtle-light-pattern.jpg');
+    background-repeat:repeat;
+    margin-left: 0 !important;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
 }
 
 .information-box{
@@ -119,7 +121,7 @@ i.ss-icon{
     font-family:'Lato', sans-serif;
     font-size: 2.5em;
     font-style: bold;
-    color: #3baaa4;
+    color: #69CBC5;
     padding-top: .4em;
 }
 
@@ -135,10 +137,21 @@ i.ss-icon{
     font-family:'Lato', sans-serif;
     font-size: 1.1em;
     font-style: bold;
-    color: #3baaa4;
+    color: #69CBC5;
     padding-top: .4em;
-    padding-right: .2px;
+    padding-right: 30px;
+    padding-left: 30px;
     text-align: right;
+    bottom: 0 !important;
+}
+
+.footer a{
+    color: #69CBC5;
+}
+
+.footer a:hover{
+    color: white;
+    text-decoration:none;
 }
 
 /* Large desktop */

@@ -89,8 +89,6 @@ body{
 	color: #333333;
     font-family:'Lato', sans-serif;
 	font-size: .7em;
-    font-weight: 200;
-    font-style:italic;
     line-height:1.75em;
     position:absolute;
     padding-left: .7em;
@@ -129,7 +127,6 @@ i.ss-icon{
 #information-text{
     font-family:'Lato', sans-serif;
     font-size: 1.5em;
-    font-weight: 200;
     color: #333333;
     padding-top: .4em;
 }
@@ -164,5 +161,8 @@ i.ss-icon{
         margin-left: 1em !important;
         margin-right: 1em !important;
 	}
+
+    .download {
+    }
 }
 

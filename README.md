@@ -11,13 +11,6 @@
 
     $ component install bulkan/clouchjs
 
-## Usage
-
-At the moment see the `test.html` file. 
-
-Still work in progress
-
-
 ## License
 
   MIT

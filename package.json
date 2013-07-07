@@ -1,0 +1,25 @@
+{
+  "name": "clouch.js",
+  "version": "0.1.0",
+  "description": "replace occurrences of the word click with touch on mobile's and stop confusing your users",
+  "main": "index.js",
+  "dependencies": {
+    "component": "*",
+    "uglify-js": "~2.3.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bulkan/clouch.js#"
+  },
+  "author": "Bulkan Evcimen",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "a3a109b893fc94bb5b4abddaeaf2f008341eb43c",
+  "bugs": {
+    "url": "https://github.com/bulkan/clouch.js#/issues"
+  }
+}

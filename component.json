@@ -2,7 +2,7 @@
   "name": "clouchjs",
   "repo": "bulkan/clouchjs",
   "description": "replace click with touch",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "keywords": [],
   "dependencies": {
     "component/dom": "*",
